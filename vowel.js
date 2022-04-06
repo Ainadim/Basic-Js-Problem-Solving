@@ -1,26 +1,15 @@
-// function allSentence(str) {
-//     let vowel = 'aeiou'; 
-//     let count = 0;
-//     for (let i = 0; i < str.length; i++) {
-//        if (vowel.indexOf(str[i].toLowerCase ()) > -1) {
-         
-//            console.log(count++)
-//        }
-//     }
-//     return "This is" + count + "vowel";
-// }
-// allSentence('I love Bangladesh America');
+5. How would you determine the number of vowels in a sentence?
 
-function allSentence(str) {
-    let count = 0;
-    let vowel = 'aeiou'
+const vowel = 'aeiou'
+let count = 0;
+
+const allString = str => {
     for (let i = 0; i < str.length; i++) {
-       if (vowel.indexOf (str[i].toLowerCase ()) > -1) {
-            count ++;
-        };
+        if (vowel.indexOf(str[i].toLowerCase ()) > -1) {
+            count ++
+        }
     }
-    return console.log('This is ' + count + ' vowel here.');
-}
+} 
+allString ('My name is Arafin & I am learning JavaScript AEIOU');
 
-
-allSentence ('This is the biggest event ever I see')
+console.log('There are total ' + count + ' vowel in the sentence');
