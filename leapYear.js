@@ -1,4 +1,4 @@
-4. Write a function that can tell us whether an year is a leap year or not.
+// 4. Write a function that can tell us whether an year is a leap year or not.
 
 const leap = prompt ('Enter a Number')
 

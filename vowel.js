@@ -1,4 +1,4 @@
-5. How would you determine the number of vowels in a sentence?
+// 5. How would you determine the number of vowels in a sentence?
 
 const vowel = 'aeiou'
 let count = 0;
